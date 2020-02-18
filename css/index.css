@@ -166,7 +166,7 @@ h5 {
 /* Your code starts here! */
 
 .container {
-    width: 880px;
+    width: 80%;
     margin: auto;
 }
 
@@ -272,4 +272,22 @@ footer p a {
     text-align: center;
     text-decoration: none;
     color: black;
+}
+
+
+/* --------------------------- */
+
+@media screen(max-width: 800px) {
+    header {
+        height: 240vh;
+    }
+}
+
+@media screen (max-width: 500px) {
+    .navbar {
+        flex-direction: column-reverse;
+    }
+    .links {
+        flex-direction: column;
+    }
 }
